@@ -1,0 +1,63 @@
+body, html {
+  font-size: 10px;
+  font-family: 'Kaushan Script', cursive;
+  margin: 0;
+}
+
+html {
+  background: url("./assets/Oilslick1.jpg");
+  background-size: cover;
+  height: 100%;
+  text-align: left;
+  /*overflow: hidden;*/
+}
+
+.allTheThings {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  /*align-self: center;*/
+}
+
+.textThings {
+  margin-top: 14em;
+  flex: 1;
+  justify-content: flex-start;
+  max-height: 100vh;
+  text-align: center;
+  margin-right: 8em;
+}
+
+.logoContainer {
+  margin-left: 18em;
+  margin-right: 1em;
+  height: 100vh;
+}
+
+.logoYo {
+  max-height: 100vh;
+}
+
+h1 {
+  /*font-family: 'Rubik', sans-serif;*/
+  font-weight: bold;
+  font-kerning: none;
+  font-size: 120px;
+  text-shadow: 2px 4px 4px #420037;
+  color: #9b0081;
+  align-self: center;
+  order: 2;
+}
+
+i {
+  color: #9b0081;
+  padding-right: 0.5em;
+}
+
+#mailTo {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 34px;
+  text-decoration: none;
+  color: #420027;
+  order: 3;
+}
